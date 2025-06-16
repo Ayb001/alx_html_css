@@ -1,9 +1,10 @@
-
+/* Importing webfonts */
+/* (If you're learning CSS, you should disregard that) */
 
 @import url(https://fonts.googleapis.com/css?family=Yeseva+One);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
 
-
+/* CSS reset rules */
 
 html, body {
 	height: 100%;
@@ -28,7 +29,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -52,7 +53,7 @@ table {
 	border-spacing: 0;
 }
 
-
+/* Fonts and colors */
 
 body {
 	font-family: 'Josefin Sans', serif;
@@ -83,7 +84,7 @@ footer {
 a {
 	color: rgb(13, 116, 165);
 }
-
+/* Positioning and margins */
 
 @media (max-width: 667px) {
 	.works_on_smartphone {
