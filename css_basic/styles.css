@@ -1,4 +1,4 @@
-/* Task 1: Flexbox Layout */
+/* Task 1: Flexbox Layout - REQUIRED FOR POSITIONING */
 body {
     display: flex;
     flex-direction: column;
