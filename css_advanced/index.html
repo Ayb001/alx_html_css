@@ -228,7 +228,7 @@
     <!-- FAQ Section -->
     <section class="faq-section">
         <div class="container">
-            <h2 class="section-title">F.A.Q.</h2>
+            <h1 class="section-title">F.A.Q.</h1>
             <div class="faq-grid">
                 <div class="faq-column">
                     <div class="faq-item">
@@ -263,21 +263,13 @@
                 </div>
                 <div class="social-links">
                     <a href="#" class="social-link">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-                            <path d="M15 0C6.716 0 0 6.716 0 15s6.716 15 15 15 15-6.716 15-15S23.284 0 15 0zm6.5 10.438h-2.25c-.5 0-.75.25-.75.75v1.5h3l-.375 3h-2.625V22.5h-3v-6.75h-2.25v-3h2.25V11c0-2.25 1.5-4 4-4h3v3.437z" fill="white"/>
-                        </svg>
+                        <img src="https://via.placeholder.com/30x30/FFFFFF/FFFFFF.png?text=F" alt="Facebook" class="social-icon">
                     </a>
                     <a href="#" class="social-link">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-                            <path d="M15 0C6.716 0 0 6.716 0 15s6.716 15 15 15 15-6.716 15-15S23.284 0 15 0zm6.879 11.18c.007.175.01.352.01.53 0 5.42-4.127 11.66-11.66 11.66-2.317 0-4.472-.679-6.29-1.84.321.038.647.057.978.057 1.922 0 3.69-.655 5.093-1.756-1.795-.033-3.308-1.218-3.831-2.844.25.048.506.074.769.074.373 0 .734-.05 1.076-.144-1.874-.376-3.287-2.032-3.287-4.017v-.052c.552.307 1.183.491 1.854.512-1.099-.734-1.824-1.988-1.824-3.408 0-.75.202-1.454.555-2.06 2.022 2.481 5.043 4.112 8.454 4.283-.07-.3-.106-.612-.106-.935 0-2.266 1.837-4.103 4.103-4.103 1.18 0 2.246.498 2.995 1.296.934-.184 1.813-.525 2.606-.994-.306.956-.955 1.758-1.8 2.266.83-.099 1.621-.319 2.357-.644-.55.822-1.247 1.544-2.049 2.121z" fill="white"/>
-                        </svg>
+                        <img src="https://via.placeholder.com/30x30/FFFFFF/FFFFFF.png?text=T" alt="Twitter" class="social-icon">
                     </a>
                     <a href="#" class="social-link">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-                            <path d="M15 0C6.716 0 0 6.716 0 15s6.716 15 15 15 15-6.716 15-15S23.284 0 15 0zm5.2 19.5c-.39 1.56-1.65 2.81-3.21 3.2-2.34.6-4.8.6-7.14 0-1.56-.39-2.82-1.64-3.21-3.2-.6-2.34-.6-4.8 0-7.14.39-1.56 1.65-2.81 3.21-3.2 2.34-.6 4.8-.6 7.14 0 1.56.39 2.82 1.64 3.21 3.2.6 2.34.6 4.8 0 7.14z" fill="white"/>
-                            <path d="M15 10.5c-2.48 0-4.5 2.02-4.5 4.5s2.02 4.5 4.5 4.5 4.5-2.02 4.5-4.5-2.02-4.5-4.5-4.5zm0 7.2c-1.49 0-2.7-1.21-2.7-2.7s1.21-2.7 2.7-2.7 2.7 1.21 2.7 2.7-1.21 2.7-2.7 2.7z" fill="white"/>
-                            <circle cx="19.8" cy="10.2" r="1.05" fill="white"/>
-                        </svg>
+                        <img src="https://via.placeholder.com/30x30/FFFFFF/FFFFFF.png?text=I" alt="Instagram" class="social-icon">
                     </a>
                 </div>
             </div>
@@ -286,5 +278,577 @@
             </div>
         </div>
     </footer>
+
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .highlight {
+            color: #C271FF;
+        }
+
+        /* Buttons */
+        .btn-primary {
+            background: linear-gradient(225deg, #FF6B6B, #C271FF);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 22px;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            box-shadow: 0 2px 20px rgba(194, 113, 255, 0.5);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 25px rgba(194, 113, 255, 0.7);
+        }
+
+        /* Header Styles */
+        .header {
+            position: absolute;
+            width: 100%;
+            z-index: 1000;
+            padding: 35px 0;
+            background: transparent;
+        }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 29px;
+            width: auto;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+            gap: 41px;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #C271FF;
+        }
+
+        /* Banner Section */
+        .banner {
+            background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.0001) 0%, #071629 100%), 
+                        url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') no-repeat center;
+            background-size: cover;
+            color: white;
+            padding: 200px 0 100px;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .banner-content {
+            margin-bottom: 100px;
+        }
+
+        .banner-title {
+            font-size: 120px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            line-height: 1.0;
+        }
+
+        .banner-subtitle {
+            display: flex;
+            justify-content: center;
+            gap: 79px;
+            margin-bottom: 38px;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0;
+        }
+
+        .pros-section .pros-title {
+            font-size: 32px;
+            margin-bottom: 100px;
+            font-weight: 300;
+            line-height: 1.25;
+        }
+
+        .pros-grid {
+            display: flex;
+            justify-content: center;
+            gap: 58px;
+            max-width: 1009px;
+            margin: 0 auto;
+        }
+
+        .pro-card {
+            text-align: center;
+            max-width: 150px;
+        }
+
+        .pro-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 30px;
+            object-fit: cover;
+        }
+
+        .pro-name {
+            font-size: 18px;
+            font-weight: 900;
+            margin-bottom: 3px;
+            line-height: 1.33;
+        }
+
+        .pro-description {
+            font-size: 16px;
+            font-style: italic;
+            color: white;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        /* Quote Section */
+        .quote-section {
+            background-color: #C271FF;
+            color: white;
+            padding: 106px 0 100px;
+        }
+
+        .quote-content {
+            display: flex;
+            align-items: center;
+            gap: 49px;
+            max-width: 730px;
+            margin: 0 auto;
+        }
+
+        .quote-image {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .quote-text {
+            flex: 1;
+        }
+
+        .quote {
+            font-size: 22px;
+            font-style: normal;
+            line-height: 1.36;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .quote-author {
+            font-size: 22px;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 4px;
+            font-style: normal;
+            line-height: 1.36;
+        }
+
+        .quote-title {
+            font-size: 22px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.36;
+        }
+
+        /* Videos Section */
+        .videos-section {
+            padding: 87px 0 122px;
+            background-color: white;
+        }
+
+        .videos-section .section-title {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 92px;
+            font-weight: 300;
+            color: #071629;
+            line-height: 1.25;
+        }
+
+        .videos-grid {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .video-card {
+            width: 255px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .video-thumbnail {
+            position: relative;
+            width: 255px;
+            height: 154px;
+            overflow: hidden;
+        }
+
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            width: 64px;
+            height: 64px;
+        }
+
+        .video-info {
+            padding: 20px;
+        }
+
+        .video-title {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 7px;
+            color: #071629;
+            line-height: 1.25;
+        }
+
+        .video-description {
+            font-size: 14px;
+            color: rgba(7, 22, 41, 0.5);
+            line-height: 1.71;
+            margin-bottom: 15px;
+            font-weight: 400;
+        }
+
+        .video-author {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 12px;
+        }
+
+        .author-image {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .author-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #C271FF;
+            line-height: 1.71;
+        }
+
+        .video-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .rating {
+            display: flex;
+        }
+
+        .stars {
+            color: #C271FF;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+
+        .duration {
+            font-size: 14px;
+            font-weight: 600;
+            color: #C271FF;
+            line-height: 1.71;
+        }
+
+        /* Membership Section */
+        .membership-section {
+            padding: 70px 0 79px;
+            background-color: #071629;
+            color: white;
+            text-align: center;
+        }
+
+        .membership-section .section-title {
+            color: white;
+            margin-bottom: 95px;
+            font-size: 32px;
+            font-weight: 300;
+            line-height: 1.25;
+        }
+
+        .membership-grid {
+            display: flex;
+            justify-content: center;
+            gap: 94px;
+            margin-bottom: 85px;
+            max-width: 1006px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .membership-item {
+            text-align: center;
+            max-width: 207px;
+        }
+
+        .membership-icon {
+            width: 44px;
+            height: 35px;
+            margin-bottom: 26px;
+            filter: hue-rotate(280deg);
+        }
+
+        .membership-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 26px;
+            line-height: 1.33;
+        }
+
+        .membership-description {
+            font-size: 14px;
+            line-height: 1.71;
+            color: white;
+            font-weight: 400;
+        }
+
+        .membership-section .btn-primary {
+            margin-top: 20px;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 67px 0 83px;
+            background-color: white;
+        }
+
+        .faq-section .section-title {
+            text-align: center;
+            margin-bottom: 98px;
+            font-size: 60px;
+            font-weight: 300;
+            color: #071629;
+            line-height: 1.0;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        .faq-column {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+        }
+
+        .faq-item {
+            text-align: left;
+        }
+
+        .faq-question {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #071629;
+            line-height: 1.5;
+        }
+
+        .faq-answer {
+            font-size: 14px;
+            line-height: 1.71;
+            color: rgba(7, 22, 41, 0.5);
+            font-weight: 400;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #071629;
+            color: white;
+            padding: 91px 0 40px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 76px;
+        }
+
+        .footer-logo img {
+            height: 29px;
+            width: auto;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-link {
+            color: white;
+            transition: opacity 0.3s ease;
+            text-decoration: none;
+        }
+
+        .social-link:hover {
+            opacity: 0.7;
+        }
+
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .footer-copyright {
+            text-align: center;
+        }
+
+        .footer-copyright p {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.35);
+            font-weight: 400;
+            line-height: 1.33;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .nav-wrapper {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .banner-title {
+                font-size: 60px;
+            }
+            
+            .banner-subtitle {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .pros-grid {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+            
+            .quote-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+            }
+            
+            .videos-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .membership-grid {
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+            }
+            
+            .faq-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 30px;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .banner-title {
+                font-size: 40px;
+            }
+            
+            .pro-image {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .quote-image {
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        /* Focus States for Accessibility */
+        .nav-link:focus,
+        .btn-primary:focus,
+        .social-link:focus {
+            outline: 2px solid #C271FF;
+            outline-offset: 2px;
+        }
+    </style>
 </body>
 </html>
